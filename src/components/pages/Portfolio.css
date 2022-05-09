@@ -1,0 +1,19 @@
+.portfolio_title {
+    background: #f0e6d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+}
+
+.swiper-object {
+    display: flex;
+}
+
+
+@media screen and (max-width: 960px) {
+    .swiper-object {
+        display: none;
+    }
+}
