@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9be10bae.css",
+    "main.js": "/static/js/main.c0dead68.js",
+    "static/media/IMG_2910.jpeg": "/static/media/IMG_2910.df4ecfd2d13a9936d270.jpeg",
+    "static/media/Headshot.PNG": "/static/media/Headshot.d6d6bae58424989197c2.PNG",
+    "static/media/Logo.PNG": "/static/media/Logo.4b625d45fa3840d42d27.PNG",
+    "static/media/arduino_image.jpg": "/static/media/arduino_image.493fa0d837f0e739937c.jpg",
+    "static/media/wframe.PNG": "/static/media/wframe.1b9663773537d1382a09.PNG",
+    "index.html": "/index.html",
+    "main.9be10bae.css.map": "/static/css/main.9be10bae.css.map",
+    "main.c0dead68.js.map": "/static/js/main.c0dead68.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9be10bae.css",
+    "static/js/main.c0dead68.js"
+  ]
+}
