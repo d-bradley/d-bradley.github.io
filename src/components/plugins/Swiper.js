@@ -1,5 +1,6 @@
 import React from 'react';
-import Swiper, { Navigation, Pagination } from 'swiper/bundle';
+import {Swiper, SwiperSlide } from 'swiper/react';
+import {Navigation, Pagination } from 'swiper';
 // import Swiper and modules styles
 import './Swiper.css';
 import 'swiper/css/bundle';
@@ -9,47 +10,32 @@ import ProjectCard from './ProjectCard';
 import ProjectCard2 from './ProjectCard2';
 
 export default function SwiperObject(props) {
-    const swiper = new Swiper('.swiper', {
-        // Optional parameters
-        loop: true,
 
-        // If we need pagination
-        Pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-
-        // Navigation arrows
-        Navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-        });
 
      return (
+        <>
+        <Swiper
+            loop={true}
+            spaceBetween={30}
+            pagination={{
+                clickable: true,
+            }}
+            navigation={true}
+            modules={[Pagination, Navigation]}
+            className="mySwiper"
+        >
         <div class="swiper_container">
             <div class="swiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <ProjectCard 
-                            Navigation
-                            Pagination
-                            swiper
-                        />
+                        <SwiperSlide>
+                            <ProjectCard />
+                        </SwiperSlide>
                     </div>
                     <div class="swiper-slide">
-                        <ProjectCard2 
-                            Navigation
-                            Pagination
-                            swiper
-                        />
-                    </div>
-                    <div class="swiper-slide">
-                        <ProjectCard2 
-                            Navigation
-                            Pagination
-                            swiper
-                        />
+                        <SwiperSlide>
+                            <ProjectCard2 />
+                        </SwiperSlide>
                     </div>
                 </div>
                 <div class="swiper-pagination"></div>
@@ -57,5 +43,7 @@ export default function SwiperObject(props) {
                 <div class="swiper-button-next"></div>
             </div>
         </div>
-     )   
+        </Swiper>
+        </>
+     );   
 }
