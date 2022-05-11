@@ -44,6 +44,13 @@ export default function SwiperObject(props) {
                             swiper
                         />
                     </div>
+                    <div class="swiper-slide">
+                        <ProjectCard2 
+                            Navigation
+                            Pagination
+                            swiper
+                        />
+                    </div>
                 </div>
                 <div class="swiper-pagination"></div>
                 <div class="swiper-button-prev"></div>
