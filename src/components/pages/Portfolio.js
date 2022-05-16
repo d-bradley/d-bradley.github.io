@@ -6,10 +6,9 @@ export default function Portfolio(props) {
   return (
     <>
     <h1 className='portfolio'>Projects I've worked on...</h1>
-    <div className='swiper_container'>
+    <div className='swiper-container'>
       <ul className='swiper-object'>
-        <SwiperObject
-        />
+        <SwiperObject />
       </ul>
     </div>
     </>

@@ -8,7 +8,7 @@ export default function ProjectCard2() {
   return (
     <div className='projectcard_object'>
       <div className='projectcard_container'>
-        <div className='cards__wrapper'>
+        <div className='projectcard-wrapper'>
           <ul className='projectcard_item_arduino'>
             <ProjectItem
               title='WFrame, a Content Management Tool'

@@ -7,7 +7,7 @@ export default function Contact() {
   return (
   <>
   <div className='contact'>
-    <div className='cards'>
+    <div className='contact_cards'>
       <div className='cards__container__contact'>
         <div className='cards__wrapper'>
           <ul className='contact_card_item'>

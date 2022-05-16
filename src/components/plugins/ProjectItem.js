@@ -14,8 +14,8 @@ export default function CardItem(props) {
           <div className='projectcard_body'>
             <div className='projectcard_chunk'>
               <img
-                className='cards__item__img'
-                alt='Travel Image'
+                className='projectcard-image'
+                alt='Project'
                 src={props.src}
               />
             </div>

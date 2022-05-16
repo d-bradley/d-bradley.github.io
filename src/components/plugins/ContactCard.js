@@ -3,7 +3,7 @@ import React from 'react';
 export default function ContactCard(props) {
   return (
     <>
-      <li className='cards__item__contact'>
+      <div className='cards__item__contact'>
         <div className='cards__item__box__contact' to={props.path}>
             <div className='cards__item__info'>
                 <h2 className='cards__item__title'>{props.title}</h2>
@@ -41,7 +41,7 @@ export default function ContactCard(props) {
                 </div>
             </div>
         </div>
-      </li>
+      </div>
     </>
   );
 }
