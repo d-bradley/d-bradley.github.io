@@ -1,4 +1,4 @@
-.contact_links {
+.contact-links {
     padding: 12px;
 }
 
@@ -19,7 +19,7 @@
     justify-content: center;
 }
 
-.cards__item__chunk {
+.card-chunk {
     display: flex;
     flex-flow: column;
     justify-content: center;

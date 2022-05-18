@@ -30,14 +30,14 @@
     background: rgb(255, 255, 255);
 }
 
-@media screen and (max-width: 1600px) {
-    .swiper {
-        width: 100vw;
-        height: 65vh;
-    }
+    @media screen and (max-width: 1600px) {
+        .swiper {
+            width: 100vw;
+            height: 65vh;
+        }
 
-    .swiper-slide img{
-        width: 128px;
-        height: 128px;
+        .swiper-slide img{
+            width: 128px;
+            height: 128px;
+        }
     }
-}

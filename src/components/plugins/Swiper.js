@@ -1,16 +1,15 @@
 import React from 'react';
 import {Swiper, SwiperSlide } from 'swiper/react';
 import {Navigation, Pagination } from 'swiper';
-// import Swiper and modules styles
 import './Swiper.css';
 import 'swiper/css/bundle';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import ProjectCard from './ProjectCard';
 import ProjectCard2 from './ProjectCard2';
+import ProjectCard3 from './ProjectCard3';
 
 export default function SwiperObject(props) {
-
 
      return (
         <>
@@ -35,6 +34,11 @@ export default function SwiperObject(props) {
                     <div class="swiper-slide">
                         <SwiperSlide>
                             <ProjectCard2 />
+                        </SwiperSlide>
+                    </div>
+                    <div class="swiper-slide">
+                        <SwiperSlide>
+                            <ProjectCard3 />
                         </SwiperSlide>
                     </div>
                 </div>

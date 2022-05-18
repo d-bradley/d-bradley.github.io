@@ -8,8 +8,8 @@ function Cards() {
   return (
     <div className='cards'>
       <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
+        <div className='card-wrapper'>
+          <ul className='card-content'>
             <CardItem
               text='Whether you have a job interview in person or online, you can expect a few standard questions. 
               When you first meet, many hiring managers will ask you to introduce yourself. 
