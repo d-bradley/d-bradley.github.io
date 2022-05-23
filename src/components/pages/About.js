@@ -17,11 +17,12 @@ export default function About() {
               I’ve been working as a freelance web developer creating webpages for local artists and businesses 
               using the React framework. I’m also continuing development of my own Java finance application 
               utilizing JavaFX and MySQL.'
-              text3='When I’m not programming I have a multitude of different interests 
-              that include; playing guitar, hiking, rock climbing, painting, and growing tomatoes. Before finsihing 
-              my degree I worked in management postion at Greenpeace and Guitar Center. I believe this edperience 
-              along with my passion for creatinghas given me a unique insight on the needs of a business and how to 
-              help facilitate progress within an orginization or company.'
+              text3='When I’m not programming I have a multitude of different interests
+              that include; playing guitar, hiking, rock climbing, painting, and growing tomatoes. Before finishing
+              my degree I worked in a management position at Greenpeace and Guitar Center. I believe this experience
+              along with my passion for creating has given me a unique insight on the needs of a business and how to
+              help facilitate progress within an organization or company.'
+ 
               text4='I’d love to share my passion for creating and work ethic with you so feel free to reach out!'
               path='/about'
             />
