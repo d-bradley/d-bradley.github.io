@@ -18,9 +18,10 @@ export default function About() {
               using the React framework. I’m also continuing development of my own Java finance application 
               utilizing JavaFX and MySQL.'
               text3='When I’m not programming I have a multitude of different interests 
-              that include; playing guitar, hiking, rock climbing, painting, and growing tomatoes. I have worked 
-              in multiple roles over the years in a management position and I believe this has given me a unique 
-              insight on the needs of a business and how to best help deliver them.'
+              that include; playing guitar, hiking, rock climbing, painting, and growing tomatoes. Before finsihing 
+              my degree I worked in management postion at Greenpeace and Guitar Center. I believe this edperience 
+              along with my passion for creatinghas given me a unique insight on the needs of a business and how to 
+              help facilitate progress within an orginization or company.'
               text4='I’d love to share my passion for creating and work ethic with you so feel free to reach out!'
               path='/about'
             />
