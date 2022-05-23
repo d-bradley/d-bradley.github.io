@@ -1,9 +1,9 @@
 .contact-links {
-    padding: 12px;
+    padding: 1rem;
 }
 
-.cards__item__box__contact {
-    background-color: #242424;;
+.contact-card-container {
+    background-color: #242424;
     display: flex;
     flex-flow: column;
     box-shadow: 0 6px 30px rgba(108, 49, 26, 0.17);
@@ -13,15 +13,9 @@
     text-decoration: none;
 }
 
-.cards__item__info {
+.contact-card-info {
     color: #fff;
     display: flex;
-    justify-content: center;
-}
-
-.card-chunk {
-    display: flex;
-    flex-flow: column;
     justify-content: center;
     padding: 2rem;
 }
@@ -30,39 +24,42 @@
     display: flex;
     flex-flow: row;
     justify-content: center;
-    padding-bottom: 20px;
+    padding-bottom: 1rem;
 }
 
 .cards__link {
-    margin: 5px;
-    padding: 5px;
     font-size: 1rem;
     color: #fff;
     display: flex;
     justify-content: center;
 }
 
-.cards__item__desc {
+.card-link-name {
     color: #fff;
     display: flex;
     justify-content: center;
+    font-size: 1rem;
 }
 
 @media screen and (max-width: 960px) {
     .cards__item__text {
-        font-size: 12px;
-        line-height: 20px;
+        font-size: .6rem;
+        line-height: 1.2rem;
     }
 
-    .cards__container__contact {
-        max-width: 100%;
+    .card-chunk {
+        padding: 1.2rem;
     }
 
-    .cards__item__chunk {
-        padding: .5em;
+    .cards__link {
+        font-size: .8rem;
     }
 
-    .contact_links {
-        padding-inline: 8px;
+    .card-link-name {
+        font-size: .8rem;
+    }
+
+    .contact-links {
+        padding-inline: .5rem;
     }
 }  

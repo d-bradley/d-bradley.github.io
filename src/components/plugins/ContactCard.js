@@ -3,9 +3,9 @@ import React from 'react';
 export default function ContactCard(props) {
   return (
     <>
-      <div className='cards__item__contact'>
-        <div className='cards__item__box__contact' to={props.path}>
-            <div className='cards__item__info'>
+      <div className='contact-card'>
+        <div className='contact-card-container' to={props.path}>
+            <div className='contact-card-info'>
                 <h2 className='cards__item__title'>{props.title}</h2>
             </div>
             <div className='cards__item__body'>
@@ -16,7 +16,7 @@ export default function ContactCard(props) {
                         </a>
                     </div>
                     <div>
-                        <h3 className='cards__item__desc'>{props.emaildesc}</h3>
+                        <h3 className='card-link-name'>{props.emaildesc}</h3>
                     </div>
                 </div>
                 <div className='card-chunk'>
@@ -26,7 +26,7 @@ export default function ContactCard(props) {
                         </a>
                     </div>
                     <div>
-                        <h3 className='cards__item__desc'>{props.linkeddesc}</h3>
+                        <h3 className='card-link-name'>{props.linkeddesc}</h3>
                     </div>
                 </div>
                 <div className='card-chunk'>  
@@ -36,7 +36,7 @@ export default function ContactCard(props) {
                         </a>
                     </div>
                     <div>
-                        <h3 className='cards__item__desc'>{props.githubdesc}</h3>
+                        <h3 className='card-link-name'>{props.githubdesc}</h3>
                     </div>
                 </div>
             </div>

@@ -5,20 +5,9 @@
     align-items: center;
   }
   
-  .projectcard_item {
-    padding: 0;
-    background: #f0e6d3;
-    display: flex;
-    justify-content: center;
-  }
-  
   .projectcard_body {
     display: flex;
     justify-content: center;
-  }
-    
-  .projectcard_link {
-    text-decoration: none;
   }
   
   .projectcard_title {
@@ -32,6 +21,7 @@
   .projectcard_text {
     font-size: 1rem;
     color: #242424;
+    padding: 1rem;
   }
 
   @media screen and (max-width: 1200px) {

@@ -6,6 +6,7 @@ import "../plugins/ContactCard.css";
 export default function Contact() {
   return (
   <>
+  <h1 className='about'>Let's connect!</h1>
   <div className='contact'>
     <div className='contact_cards'>
       <div className='cards__container__contact'>

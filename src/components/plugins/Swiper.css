@@ -1,6 +1,5 @@
 .swiper-container {
-    padding-top: 5rem;
-    height: 80vh;
+    padding-top: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,28 +15,28 @@
 }
 
 .swiper-slide img {
-    display: flex;
-    justify-content: center;
-    width: 300px;
-    height: 300px;
+    float: left;
+    padding: 1rem;
+    padding-bottom: .2rem;
+    width: 18rem;
+    height: 18rem;
 }
 
 .swiper .swiper-button-prev, .swiper .swiper-button-next{
-    color: rgb(255, 255, 255);
+    color: #41A4D6;
 }
 
 .swiper .swiper-pagination-bullet-active{
-    background: rgb(255, 255, 255);
+    background: rgb(234, 136, 37);
 }
 
     @media screen and (max-width: 1600px) {
         .swiper {
             width: 100vw;
-            height: 65vh;
         }
 
         .swiper-slide img{
-            width: 128px;
-            height: 128px;
+            width: 8rem;
+            height: 8rem;
         }
     }

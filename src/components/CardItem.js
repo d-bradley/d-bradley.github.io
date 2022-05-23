@@ -6,7 +6,10 @@ function CardItem(props) {
       <li className='cards__item'>
         <div className='cards__item__box' to={props.path}>
           <div className='cards__item__info'>
-            <h5 className='cards__item__text'>{props.text}</h5>
+            <h3 className='about-text'>{props.text1}</h3>
+            <p className='about-text'>{props.text2}</p>
+            <p className='about-text'>{props.text3}</p>
+            <p className='about-text'>{props.text4}</p>
           </div>
         </div>
       </li>

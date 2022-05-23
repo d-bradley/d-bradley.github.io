@@ -5,8 +5,7 @@ import './ProjectCard.css';
 export default function CardItem(props) {
   return (
     <>
-    <div className='projectcard'>
-      <li className='projectcard_item'>
+      <div className='projectcard'>
         <div className='projectcard_link'>
           <div className='projectcard_title'>
               <h2 className='projectcard_title_info'>{props.title}</h2>
@@ -18,16 +17,13 @@ export default function CardItem(props) {
                 alt='Project'
                 src={props.src}
               />
-            </div>
-            <div className='projectcard_chunk'>
               <div className='projectcard_info'>
                 <h5 className='projectcard_text'>{props.text}</h5>
               </div>
             </div>
           </div>
         </div>
-      </li>
-    </div>
+      </div>
     </>
   );
 }

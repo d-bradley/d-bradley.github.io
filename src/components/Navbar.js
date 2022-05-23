@@ -46,7 +46,7 @@ function Navbar() {
                 to='about'
                 spy={true}
                 smooth={true}
-                offset={-75}
+                offset={-10}
                 duration={500}
                 className='nav-links'
                 onClick={closeMobileMenu}
@@ -59,7 +59,7 @@ function Navbar() {
                 to='portfolio'
                 spy={true}
                 smooth={true}
-                offset={-10}
+                offset={-80}
                 duration={500}
                 className='nav-links'
                 onClick={closeMobileMenu}

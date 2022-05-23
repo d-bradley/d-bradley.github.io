@@ -1,6 +1,5 @@
 import React from 'react';
 import CardItem from '../CardItem';
-import './About.css'
 import '../../App.css';
 
 export default function About() {
@@ -12,15 +11,17 @@ export default function About() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              text='Hi there, welcome to my personal webpage :) My name is Dan, I’m a recent graduate of 
+              text1='Hi there, welcome to my personal webpage :)'
+              text2='My name is Dan, I’m a recent graduate of 
               SUNY at Albany where I completed a Bachelor’s of Science in Computer Science. Since graduation 
               I’ve been working as a freelance web developer creating webpages for local artists and businesses 
               using the React framework. I’m also continuing development of my own Java finance application 
-              utilizing JavaFX and MySQL. When I’m not programming I have a multitude of different interests 
+              utilizing JavaFX and MySQL.'
+              text3='When I’m not programming I have a multitude of different interests 
               that include; playing guitar, hiking, rock climbing, painting, and growing tomatoes. I have worked 
               in multiple roles over the years in a management position and I believe this has given me a unique 
-              insight on the needs of a business and how to best help deliver them. I’d love to share my passion 
-              for creating and work ethic with you so feel free to reach out!'
+              insight on the needs of a business and how to best help deliver them.'
+              text4='I’d love to share my passion for creating and work ethic with you so feel free to reach out!'
               path='/about'
             />
           </ul>
